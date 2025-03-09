@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POOJA WEDS GAGAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="background-audio" src="Kudmayi (Film Version)  Rocky Aur Rani Kii Prem Kahaani  Ranveer  Alia  Shahid  Pritam Amitabh.mp3" autoplay loop></audio>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-audio');
+            audio.currentTime = 14; // Start at 14 seconds
+            audio.play().catch(function() {
+                // Autoplay was prevented, try to play again after user interaction
+                document.addEventListener('click', function() {
+                    audio.play();
+                }, { once: true });
+            });
+        });
+    </script>
+    <nav>
+        <div class="head">
+            <h1>POOJA WEDS GAGAN</h1>
+            <h5>💑 21-01-2025💑</h5>
+        </div>
+        <nav class="navbar">
+            <button class="haldi"><a href="haldi.html" style="color: yellow;">HALDI💛</a></button>
+            <button class="sagai"><a href="sagai.html" style="color: pink;">SAGAI👰</a></button>
+        </nav>
+    </nav>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="image1 (1).jpg" style="width:100% ">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (2).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (3).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (4).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (5).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (7).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (8).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (9).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (10).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image1 (11).jpg" style="width:100%">
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
+    <script src="slideshow.js"></script>
+</body>
+</html>
